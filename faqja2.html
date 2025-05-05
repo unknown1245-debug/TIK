@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sondazhi</title>
+  <style>
+    body {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: #551304;
+    }
+
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #b63004;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      background-color: #551304;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sondazh me 10 pyetje</h1>
+  <form action="http://www.sitelm.com/kodi.php" method="post">
+    
+      <p><b><i>1.</i></b> A merrni pjesë në aktivitetet e shkollës për 28 Nëntorin?</p>
+      <label><input type="radio" name="p1" value="m1"> Po</label>
+      <label><input type="radio" name="p1" value="m2"> Jo</label>
+      <label><input type="radio" name="p1" value="m3"> Ndonjëherë</label>
+
+      <p><b><i>2.</i></b> A e dini ku u shpall Pavarësia e Shqipërisë?</p>
+      <label><input type="radio" name="p2" value="m1"> Po</label>
+      <label><input type="radio" name="p2" value="m2"> Jo</label>
+    
+      <p><b><i>3.</i></b> A ngrini flamurin kuqezi në shtëpi gjatë këtyre ditëve?</p>
+      <label><input type="radio" name="p3" value="m1"> Gjithmonë</label>
+      <label><input type="radio" name="p3" value="m2"> Ndonjëherë</label>
+      <label><input type="radio" name="p3" value="m3"> Asnjëherë</label>
+    
+      <p><b><i>4.</i></b> Cili është mendimi juaj për rëndësinë e 29 Nëntorit?</p>
+      <label><input type="radio" name="p4" value="m1" > Shumë e rëndësishme</label>
+      <label><input type="radio" name="p4" value="m2"> E rëndësishme</label>
+      <label><input type="radio" name="p4" value="m3"> Nuk kam mendim</label>
+    
+      <p><b><i>5.</i></b> A i ndiqni aktivitetet televizive për festat kombëtare?</p>
+      <label><input type="radio" name="p5" value="m1"> Po, gjithmonë</label>
+      <label><input type="radio" name="p5" value="m2"> Vetëm ndonjëherë</label>
+      <label><input type="radio" name="p5" value="m3"> Jo</label>
+    
+      <p><b><i>6.</i></b> Cila është mënyra më e mirë për të festuar këto ditë?</p>
+      <label><input type="radio" name="p6" value="m1"> Me aktivitete kulturore</label>
+      <label><input type="radio" name="p6" value="m2"> Me familje</label>
+      <label><input type="radio" name="p6" value="m3"> Me pushime</label>
+
+      <p><b><i>7.</i></b> A dini të recitoni ndonjë poezi për Pavarësinë?</p>
+      <label><input type="radio" name="p7" value="m1"> Po</label>
+      <label><input type="radio" name="p7" value="m2"> Jo</label>
+    
+      <p><b><i>8.</i></b> A do të dëshironit më shumë aktivitete në komunitet për këto festa?</p>
+      <label><input type="radio" name="p8" value="m1"> Po</label>
+      <label><input type="radio" name="p8" value="m2"> Jo</label>
+    
+      <p><b><i>9.</i></b> Cila nga festat është më e rëndësishme për ju personalisht?</p>
+      <label><input type="radio" name="p9" value="m1"> 28 Nëntori</label>
+      <label><input type="radio" name="p9" value="m2"> 29 Nëntori</label>
+      <label><input type="radio" name="p9" value="m3"> Të dyja njësoj</label>
+      <label><input type="radio" name="p9" value="m4"> Asnjëra</label>
+
+      <p><b><i>10.</i></b> Si ndiheni gjatë këtyre ditëve festive?</p>
+      <label><input type="radio" name="p10" value="m1"> Krenar/e dhe i/e emocionuar</label>
+      <label><input type="radio" name="p10" value="m2"> Nuk më bëjnë përshtypje</label>
+      <label><input type="radio" name="p10" value="m3"> Tjetër</label>
+    
+    <br>
+    <br>
+    
+    <button type="submit" onclick="shfaq();">Dërgo</button>
+  </form>
+
+  <br>
+  <br>
+
+   <script>
+    function shfaq()
+    {
+        alert("Faleminderit që plotësuat formularin!")
+    }
+   </script>
+
+<button onclick="location.href='faqja1.html'">Kthehu te faqja kryesore</button>
+
+<footer>
+    &copy; 2025 10-E | Festat Kombëtare
+</footer>
+</body>
+</html>
